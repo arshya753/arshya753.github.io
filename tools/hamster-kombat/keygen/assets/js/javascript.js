@@ -1,11 +1,19 @@
 var games = [
 	{
+		name: "fluff",
+		img: "https://cdn.hamsterkombat.io/fluff/image.webp",
+		appToken: "112887b0-a8af-4eb2-ac63-d82df78283d9", 
+		promoId: "112887b0-a8af-4eb2-ac63-d82df78283d9",
+		delay: "20000",
+		attempts: "8"
+	},
+	{
 		name: "Mow and Trim",
 		img: "https://cdn.hamsterkombat.io/mow_trim/image.webp",
 		appToken: "ef319a80-949a-492e-8ee0-424fb5fc20a6", 
 		promoId: "ef319a80-949a-492e-8ee0-424fb5fc20a6",
 		delay: "20000",
-		attempts: "8"
+		attempts: "10"
 	},
 	{
 		name: "Train Miner",
