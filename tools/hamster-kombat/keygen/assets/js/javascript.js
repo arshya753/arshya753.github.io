@@ -4,64 +4,64 @@ var games = [
 		img: "https://cdn.hamsterkombat.io/fluff/image.webp",
 		appToken: "112887b0-a8af-4eb2-ac63-d82df78283d9", 
 		promoId: "112887b0-a8af-4eb2-ac63-d82df78283d9",
-		delay: "20000",
-		attempts: "8"
+		delay: 15000,
+		attempts: 8
 	},
 	{
 		name: "Mow and Trim",
 		img: "https://cdn.hamsterkombat.io/mow_trim/image.webp",
 		appToken: "ef319a80-949a-492e-8ee0-424fb5fc20a6", 
 		promoId: "ef319a80-949a-492e-8ee0-424fb5fc20a6",
-		delay: "20000",
-		attempts: "10"
+		delay: 20000,
+		attempts: 10
 	},
 	{
 		name: "Train Miner",
 		img: "https://cdn.hamsterkombat.io/train_miner/image.webp",
 		appToken: "82647f43-3f87-402d-88dd-09a90025313f",
 		promoId: "c4480ac7-e178-4973-8061-9ed5b2e17954",
-		delay: "9000",
-		attempts: "15"
+		delay: 9000,
+		attempts: 15
 	},
 	{
 		name: "Chain Cube 2048",
 		img: "https://cdn.hamsterkombat.io/chain_cube/image.webp",
 		appToken: "d1690a07-3780-4068-810f-9b5bbf2931b2",
 		promoId: "b4170868-cef0-424f-8eb9-be0622e8e8e3",
-		delay: "20000",
-		attempts: "5"
+		delay: 20000,
+		attempts: 5
 	},
 	{
-		name: "Merge Away",
+		name: Merge Away,
 		img: "https://cdn.hamsterkombat.io/merge_away/image.webp",
 		appToken: "8d1cc2ad-e097-4b86-90ef-7a27e19fb833",
 		promoId: "dc128d28-c45b-411c-98ff-ac7726fbaea4",
-		delay: "21000",
-		attempts: "9"
+		delay: 21000,
+		attempts: 9
 	},
 	{
 		name: "Zoopolis",
 		img: "https://cdn.hamsterkombat.io/zoopolis/image.webp",
 		appToken: "b2436c89-e0aa-4aed-8046-9b0515e1c46b",
 		promoId: "b2436c89-e0aa-4aed-8046-9b0515e1c46b",
-		delay: "10000",
-		attempts: "10"
+		delay: 10000,
+		attempts: 10
 	},
 	{
 		name: "Twerk Race 3D",
 		img: "https://cdn.hamsterkombat.io/twerk/image.webp",
 		appToken: "61308365-9d16-4040-8bb0-2f4a4c69074c",
 		promoId: "61308365-9d16-4040-8bb0-2f4a4c69074c",
-		delay: "20000",
-		attempts: "12"
+		delay: 20000,
+		attempts: 12
 	},
 	{
 		name: "Polysphere",
 		img: "https://cdn.hamsterkombat.io/polysphere/image.webp",
 		appToken: "2aaf5aee-2cbc-47ec-8a3f-0962cc14bc71", 
 		promoId: "2aaf5aee-2cbc-47ec-8a3f-0962cc14bc71",
-		delay: "15000",
-		attempts: "18"
+		delay: 15000,
+		attempts: 18
 	}
 ];
 var showNumberOfKeys = document.querySelector("#showNumberOfKeys");
