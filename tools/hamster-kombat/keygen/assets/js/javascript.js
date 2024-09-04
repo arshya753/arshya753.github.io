@@ -32,7 +32,7 @@ var games = [
 		attempts: 5
 	},
 	{
-		name: Merge Away,
+		name: "Merge Away",
 		img: "https://cdn.hamsterkombat.io/merge_away/image.webp",
 		appToken: "8d1cc2ad-e097-4b86-90ef-7a27e19fb833",
 		promoId: "dc128d28-c45b-411c-98ff-ac7726fbaea4",
