@@ -2,16 +2,16 @@ var games = [
 	{
 		name: "Stone Age",
 		img: "https://cdn.hamsterkombat.io/stone_age/image.webp",
-		appToken: "e68b39d2-4880-4a31-b3aa-0393e7df10c7", 
-		promoId: "e68b39d2-4880-4a31-b3aa-0393e7df10c7",
-		delay: 20000,
+		appToken: "04ebd6de-69b7-43d1-9c4b-04a6ca3305af", 
+		promoId: "04ebd6de-69b7-43d1-9c4b-04a6ca3305af",
+		delay: 23000,
 		attempts: 8
 	},
 	{
 		name: "Tile Trio",
 		img: "https://cdn.hamsterkombat.io/tile_trio/image.webp",
-		appToken: "04ebd6de-69b7-43d1-9c4b-04a6ca3305af", 
-		promoId: "04ebd6de-69b7-43d1-9c4b-04a6ca3305af",
+		appToken: "e68b39d2-4880-4a31-b3aa-0393e7df10c7", 
+		promoId: "e68b39d2-4880-4a31-b3aa-0393e7df10c7",
 		delay: 20000,
 		attempts: 8
 	},
