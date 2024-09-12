@@ -1,11 +1,19 @@
 var games = [
 	{
+		name: "Bouncemasters",
+		img: "https://cdn.hamsterkombat.io/bouncemasters/image.webp",
+		appToken: "bc72d3b9-8e91-4884-9c33-f72482f0db37", 
+		promoId: "bc72d3b9-8e91-4884-9c33-f72482f0db37",
+		delay: 5000,
+		attempts: 11
+	},
+	{
 		name: "Stone Age",
 		img: "https://cdn.hamsterkombat.io/stone_age/image.webp",
 		appToken: "04ebd6de-69b7-43d1-9c4b-04a6ca3305af", 
 		promoId: "04ebd6de-69b7-43d1-9c4b-04a6ca3305af",
-		delay: 23000,
-		attempts: 8
+		delay: 10000,
+		attempts: 10
 	},
 	{
 		name: "Tile Trio",
