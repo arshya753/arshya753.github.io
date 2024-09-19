@@ -1,5 +1,45 @@
 var games = [
 	{
+		name: "Among Water",
+		img: "https://cdn.hamsterkombat.io/among_water/image.webp",
+		appToken: "daab8f83-8ea2-4ad0-8dd5-d33363129640", 
+		promoId: "daab8f83-8ea2-4ad0-8dd5-d33363129640",
+		delay: 5000,
+		attempts: 20
+	},
+	{
+		name: "Infected Frontier",
+		img: "https://cdn.hamsterkombat.io/infected_frontier/image.webp",
+		appToken: "eb518c4b-e448-4065-9d33-06f3039f0fcb", 
+		promoId: "eb518c4b-e448-4065-9d33-06f3039f0fcb",
+		delay: 5000,
+		attempts: 20
+	},
+	{
+		name: "Pin Out Master",
+		img: "https://cdn.hamsterkombat.io/pin_out/image.webp",
+		appToken: "d2378baf-d617-417a-9d99-d685824335f0", 
+		promoId: "d2378baf-d617-417a-9d99-d685824335f0",
+		delay: 5000,
+		attempts: 20
+	},
+	{
+		name: "Count Masters",
+		img: "https://cdn.hamsterkombat.io/countmasters/image.webp",
+		appToken: "4bdc17da-2601-449b-948e-f8c7bd376553", 
+		promoId: "4bdc17da-2601-449b-948e-f8c7bd376553",
+		delay: 5000,
+		attempts: 20
+	},
+	{
+		name: "Hide Ball",
+		img: "https://cdn.hamsterkombat.io/hide_balls/image.webp",
+		appToken: "4bf4966c-4d22-439b-8ff2-dc5ebca1a600", 
+		promoId: "4bf4966c-4d22-439b-8ff2-dc5ebca1a600",
+		delay: 5000,
+		attempts: 20
+	},
+	{
 		name: "Bouncemasters",
 		img: "https://cdn.hamsterkombat.io/bouncemasters/image.webp",
 		appToken: "bc72d3b9-8e91-4884-9c33-f72482f0db37", 
@@ -8,35 +48,19 @@ var games = [
 		attempts: 11
 	},
 	{
+		name: "Merge Away",
+		img: "https://cdn.hamsterkombat.io/merge_away/image.webp",
+		appToken: "8d1cc2ad-e097-4b86-90ef-7a27e19fb833",
+		promoId: "dc128d28-c45b-411c-98ff-ac7726fbaea4",
+		delay: 21000,
+		attempts: 9
+	},
+	{
 		name: "Stone Age",
 		img: "https://cdn.hamsterkombat.io/stone_age/image.webp",
 		appToken: "04ebd6de-69b7-43d1-9c4b-04a6ca3305af", 
 		promoId: "04ebd6de-69b7-43d1-9c4b-04a6ca3305af",
 		delay: 10000,
-		attempts: 10
-	},
-	{
-		name: "Tile Trio",
-		img: "https://cdn.hamsterkombat.io/tile_trio/image.webp",
-		appToken: "e68b39d2-4880-4a31-b3aa-0393e7df10c7", 
-		promoId: "e68b39d2-4880-4a31-b3aa-0393e7df10c7",
-		delay: 20000,
-		attempts: 8
-	},
-	{
-		name: "Fluff Crusade",
-		img: "https://cdn.hamsterkombat.io/fluff/image.webp",
-		appToken: "112887b0-a8af-4eb2-ac63-d82df78283d9", 
-		promoId: "112887b0-a8af-4eb2-ac63-d82df78283d9",
-		delay: 15000,
-		attempts: 8
-	},
-	{
-		name: "Mow and Trim",
-		img: "https://cdn.hamsterkombat.io/mow_trim/image.webp",
-		appToken: "ef319a80-949a-492e-8ee0-424fb5fc20a6", 
-		promoId: "ef319a80-949a-492e-8ee0-424fb5fc20a6",
-		delay: 20000,
 		attempts: 10
 	},
 	{
@@ -48,6 +72,14 @@ var games = [
 		attempts: 15
 	},
 	{
+		name: "Mow and Trim",
+		img: "https://cdn.hamsterkombat.io/mow_trim/image.webp",
+		appToken: "ef319a80-949a-492e-8ee0-424fb5fc20a6", 
+		promoId: "ef319a80-949a-492e-8ee0-424fb5fc20a6",
+		delay: 20000,
+		attempts: 10
+	},
+	{
 		name: "Chain Cube 2048",
 		img: "https://cdn.hamsterkombat.io/chain_cube/image.webp",
 		appToken: "d1690a07-3780-4068-810f-9b5bbf2931b2",
@@ -56,20 +88,20 @@ var games = [
 		attempts: 5
 	},
 	{
-		name: "Merge Away",
-		img: "https://cdn.hamsterkombat.io/merge_away/image.webp",
-		appToken: "8d1cc2ad-e097-4b86-90ef-7a27e19fb833",
-		promoId: "dc128d28-c45b-411c-98ff-ac7726fbaea4",
-		delay: 21000,
-		attempts: 9
+		name: "Fluff Crusade",
+		img: "https://cdn.hamsterkombat.io/fluff/image.webp",
+		appToken: "112887b0-a8af-4eb2-ac63-d82df78283d9", 
+		promoId: "112887b0-a8af-4eb2-ac63-d82df78283d9",
+		delay: 15000,
+		attempts: 8
 	},
 	{
-		name: "Zoopolis",
-		img: "https://cdn.hamsterkombat.io/zoopolis/image.webp",
-		appToken: "b2436c89-e0aa-4aed-8046-9b0515e1c46b",
-		promoId: "b2436c89-e0aa-4aed-8046-9b0515e1c46b",
-		delay: 10000,
-		attempts: 10
+		name: "Polysphere",
+		img: "https://cdn.hamsterkombat.io/polysphere/image.webp",
+		appToken: "2aaf5aee-2cbc-47ec-8a3f-0962cc14bc71", 
+		promoId: "2aaf5aee-2cbc-47ec-8a3f-0962cc14bc71",
+		delay: 15000,
+		attempts: 18
 	},
 	{
 		name: "Twerk Race 3D",
@@ -80,12 +112,20 @@ var games = [
 		attempts: 12
 	},
 	{
-		name: "Polysphere",
-		img: "https://cdn.hamsterkombat.io/polysphere/image.webp",
-		appToken: "2aaf5aee-2cbc-47ec-8a3f-0962cc14bc71", 
-		promoId: "2aaf5aee-2cbc-47ec-8a3f-0962cc14bc71",
-		delay: 15000,
-		attempts: 18
+		name: "Zoopolis",
+		img: "https://cdn.hamsterkombat.io/zoopolis/image.webp",
+		appToken: "b2436c89-e0aa-4aed-8046-9b0515e1c46b",
+		promoId: "b2436c89-e0aa-4aed-8046-9b0515e1c46b",
+		delay: 10000,
+		attempts: 10
+	},
+	{
+		name: "Tile Trio",
+		img: "https://cdn.hamsterkombat.io/tile_trio/image.webp",
+		appToken: "e68b39d2-4880-4a31-b3aa-0393e7df10c7", 
+		promoId: "e68b39d2-4880-4a31-b3aa-0393e7df10c7",
+		delay: 20000,
+		attempts: 8
 	}
 ];
 var showNumberOfKeys = document.querySelector("#showNumberOfKeys");
