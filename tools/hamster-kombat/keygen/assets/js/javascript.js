@@ -4,8 +4,8 @@ var games = [
 		img: "https://cdn.hamsterkombat.io/among_water/image.webp",
 		appToken: "daab8f83-8ea2-4ad0-8dd5-d33363129640", 
 		promoId: "daab8f83-8ea2-4ad0-8dd5-d33363129640",
-		delay: 5000,
-		attempts: 20
+		delay: 2000,
+		attempts: 5
 	},
 	{
 		name: "Infected Frontier",
