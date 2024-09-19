@@ -12,8 +12,8 @@ var games = [
 		img: "https://cdn.hamsterkombat.io/infected_frontier/image.webp",
 		appToken: "eb518c4b-e448-4065-9d33-06f3039f0fcb", 
 		promoId: "eb518c4b-e448-4065-9d33-06f3039f0fcb",
-		delay: 5000,
-		attempts: 20
+		delay: 20000,
+		attempts: 5
 	},
 	{
 		name: "Pin Out Master",
