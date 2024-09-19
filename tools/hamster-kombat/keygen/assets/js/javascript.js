@@ -172,12 +172,7 @@ function clearKeys() {
 	viewLink.value = "https://arshya753.github.io/tools/hamster-kombat/keygen/view/?";
 	copyAllBtn.classList.add("d-none");
 	for (var i = 1; i < keysNum() + 1; i++) {
-		if (key != null) {
-			localStorage.removeItem(`key${i}`);
-		} else {
-			localStorage.removeItem("keysNum");
-			break;
-		}
+		localStorage.removeItem(`key${i}`);
 	}
 }
 function recoverKeys(i) {
